@@ -18,3 +18,7 @@ services:
       - 8080:8080
     depends_on:
       - postgres
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=root
